@@ -55,7 +55,3 @@ Once the backend is running, you can access the Swagger UI at:
 
 ## Deployment Notes (AWS)
 **WARNING**: These credentials should be kept secret. Remove them from this file before committing to a public repository.
-
-**Access Key ID**: `AKIAS5BZPGVTDEF7BWQ6`
-**Secret Access Key**: `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`
-**Region**: `eu-north-1`
