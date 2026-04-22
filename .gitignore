@@ -1,0 +1,51 @@
+# Ignore everything in root
+/*
+
+# Whitelist core code and essential config
+!/backend/
+!/web/
+!/mobile/
+!/README.md
+!/.gitignore
+!/requirements.txt
+!/package.json
+
+# Standard ignores (apply everywhere)
+**/node_modules/
+**/__pycache__/
+**/.venv/
+**/venv/
+**/env/
+**/.env
+**/.env.*
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/.expo/
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
+
+# Archives
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.tgz
+**/*.rar
+**/*.7z
+
+# Credentials and Keys
+**/*.pem
+**/*.key
+**/*.pub
+**/identity.json
+**/userdata.sh
+**/secrets.*
+
+# Docker (unless user specifically wants it, but they said "core code")
+**/*.yml
+**/*.yaml
+# (Whitelisting dockerfiles if they are part of core code is fine, but standard compose files often have secrets)
+!**/Dockerfile
